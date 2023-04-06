@@ -1,0 +1,26 @@
+*{
+    box-sizing: content-box;
+    /*Total width: 345px + (2*12px) + (2*10)=389px
+    Total height: 75px + (2*12px) + (2*0)=99px
+
+    Content box width: 345px
+    Content box hight: 75px */
+
+
+    /*box-sizing: border-box;
+    Total width: 345px
+    Total height: 75px
+    Content box width: 345px - (2*12px) - (2*10)=301x;
+    Content box height: 75px - (2*12px) - (2*0)=51px;*/
+}
+
+div{
+    width: 345px;
+    height: 75px;
+    background-color: lightblue;
+    border: 12px solid black;
+    padding: 0 10px 0 10px;
+       
+}
+
+ 
