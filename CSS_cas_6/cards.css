@@ -1,0 +1,116 @@
+.first-card{
+    width: 250px;
+    height: 450px;
+    background-color: rgb(224, 85, 4);
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.img-card1{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.naslov-card1, .opis-card1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    color: rgb(233, 233, 161);
+}
+
+.btn1{
+    border-color: rgb(240, 237, 237);
+    border-radius: 5px;
+    background-color: rgb(218, 144, 32);
+    color: rgb(29, 29, 24);
+    margin-top: 30px;
+}
+
+.second-card{
+    width: 300px;
+    height: 500px;
+    background-image: url(https://www.ikbenopreis.nl/wp-content/uploads/2020/05/Corsica.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.naslov-card2, .opis-card2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+
+}
+
+.naslov-card2{
+    font-size: 27px;
+}
+
+.opis-card2{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 18px;
+}
+
+
+.third-card{
+    width: 600px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color:darkgreen;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    width: 200px;
+    float: left;     
+}
+
+.round-image{
+    width: 200px;
+    height: 195px;
+    border: 3px dotted black;
+    border-radius: 50%;
+    
+}
+
+.round-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.right{
+    width: 350px;
+    float: right;
+}
+
+.link1{
+    margin-left: 100px;
+}
+
+.link2{
+    margin: 30px;
+}
+
+.opis-card3{
+    text-align: center;
+    font-family: sans-serif;
+    color: aqua;
+}
+
+.btn3{
+    background-color: aqua;
+    border-radius: 30px;
+    margin-left: 130px;
+}
+
+.btn3:hover{
+    background-color: brown;
+}
