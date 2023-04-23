@@ -1,0 +1,42 @@
+
+body{
+    background-image: url(images/background-world-map-1.gif);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: justify;
+}
+
+hr{
+    border: 50px solid palevioletred;
+}
+
+b{
+    text-decoration: overline;
+}
+
+
+strong{
+    color: rgb(33, 122, 113);
+}
+
+.about-container{
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.content-left{
+    display: inline;
+    flex: 2;
+}
+
+.content-right{
+    padding-top: 50px;
+    display: inline;
+    flex-direction: column;
+    flex: 1;
+    text-align: end; 
+    
+}

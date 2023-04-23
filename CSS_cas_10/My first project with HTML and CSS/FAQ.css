@@ -1,0 +1,22 @@
+*{
+    margin: 0 auto;
+    }
+
+body{
+    background-image: url(images/background-world-map-1.gif);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    color: rgb(31, 151, 151);
+}
+
