@@ -45,6 +45,7 @@ hr{
 /*body*/
 hr{
     border: 50px solid palevioletred;
+    margin-bottom: 50px;
 }
 
 b{
