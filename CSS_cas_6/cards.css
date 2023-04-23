@@ -2,7 +2,6 @@
     display: flex;
 }
 
-
 .first-card{
     width: 250px;
     height: 450px;
@@ -30,6 +29,7 @@
     background-color: rgb(218, 144, 32);
     color: rgb(29, 29, 24);
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .second-card{
@@ -67,7 +67,7 @@
     height: 200px;
     border: 3px solid black;
     border-radius: 10px;
-    background-color:darkgreen;
+    background-color: darkgreen;
 }
 
 .box{
@@ -84,8 +84,7 @@
     width: 200px;
     height: 195px;
     border: 3px dotted black;
-    border-radius: 50%;
-    
+    border-radius: 50%;  
 }
 
 .round-image img{
@@ -108,7 +107,7 @@
 
 .opis-card3{
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aqua;
 }
 
@@ -120,4 +119,5 @@
 
 .btn3:hover{
     background-color: brown;
+    cursor: pointer;
 }

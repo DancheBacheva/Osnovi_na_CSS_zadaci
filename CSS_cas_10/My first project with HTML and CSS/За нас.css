@@ -7,6 +7,39 @@ body{
     text-align: justify;
 }
 
+/*header*/
+.nav-container{
+    height: 150px;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;   
+}
+
+.nav-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-content a:hover{
+    color: rgb(86, 121, 17);
+    cursor: pointer; 
+}
+
+strong{
+    color: yellowgreen;
+}
+
+hr{
+    border: 2px solid yellowgreen;
+}
+/*header*/
+
+
+/*body*/
 hr{
     border: 50px solid palevioletred;
 }
@@ -40,3 +73,34 @@ strong{
     text-align: end; 
     
 }
+/*body*/
+
+/*footer*/
+.footer-container{
+    height: 200px;
+    background-color: rgb(3, 3, 83);
+    color:rgb(82, 224, 210);
+    font-size: smaller;
+}
+
+.up-footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.social-network{
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+  
+}
+
+.social{
+   display: flex;
+   align-items: center;
+   margin-right: 500px;
+  
+}
+/*footer*/

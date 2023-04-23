@@ -1,0 +1,168 @@
+*{
+    margin: 0 auto;
+    }
+
+body{
+    background-image: url(images/background-world-map-1.gif);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/*header*/
+.nav-container{
+    height: 150px;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;   
+}
+
+.nav-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-content a:hover{
+    color: rgb(86, 121, 17);
+    cursor: pointer; 
+}
+
+strong{
+    color: yellowgreen;
+}
+
+hr{
+    border: 2px solid yellowgreen;
+}
+/*header*/
+
+/*body*/
+h1{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.levels-container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.level{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(3, 3, 83);
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 2px grey;
+    
+}
+
+.content-container{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    }
+
+.title{
+    width: 330px;
+    height: 80px;
+    background-color: rgb(40, 170, 157);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+
+.list-class{
+    margin: 30px 30px 0 0;
+}
+
+p{
+    margin: 30px 30px 0 30px;
+}
+
+.list-class hr{
+    width: 250px;
+}
+
+.classes{
+    width: 330px;
+    height: 400px;
+    text-align: justify;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 20px 2px grey;  
+}
+
+.btn-enroll{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(207, 103, 103);
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+    margin-left: 570px;
+    margin-bottom: 50px;
+}
+
+.btn-enroll a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.btn-enroll:hover{
+    background-color: rgb(33, 122, 113);
+    color: black; 
+    cursor: pointer;
+}
+/*body*/
+
+/*footer*/
+.footer-container{
+    height: 200px;
+    background-color: rgb(3, 3, 83);
+    color:rgb(82, 224, 210);
+    font-size: smaller;
+}
+
+.up-footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.social-network{
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+  
+}
+
+.social{
+   display: flex;
+   align-items: center;
+   margin-right: 500px;
+  
+}
+/*footer*/
