@@ -1,4 +1,7 @@
-
+*{
+    margin: 0 auto;
+    }
+    
 body{
     background-image: url(images/background-world-map-1.gif);
     background-size: cover;
