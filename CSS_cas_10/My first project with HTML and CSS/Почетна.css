@@ -38,13 +38,16 @@ strong{
 hr{
     border: 2px solid yellowgreen;
 }
+
+select{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(146, 206, 26, 0.918);
+}
 /*header*/
 
 /*body*/
-.home-container{
-    
-}
-
 .home-content{
     width: 1000px;
     height: 700px;
@@ -69,7 +72,7 @@ hr{
     font-size: 18px;
     font-weight: 500;
     border: 0;
-    margin-left: 400px;
+    margin-left: 450px;
 }
 
 .btn-enroll a{
@@ -79,9 +82,14 @@ hr{
 }
 
 .btn-enroll:hover{
-    background-color: rgb(33, 122, 113);
+    background-color: rgb(39, 158, 146);
     color: black; 
     cursor: pointer;
+}
+
+.btn-down{
+    width: 1000px;
+    margin-top: 50px;
 }
 
 .middle-container{
@@ -104,8 +112,9 @@ hr{
 }
 
 .row{
-   display: flex;
-   justify-content: space-around;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .row a{

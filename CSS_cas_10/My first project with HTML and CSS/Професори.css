@@ -50,6 +50,7 @@ hr{
 }
 
 .en-fr-es{
+    width: 1000px;
     display: flex;
     align-items: space-between;
     margin-top: 50px;
@@ -58,12 +59,14 @@ hr{
 }
 
 .cn-de-si{
+    width: 1000px;
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
 }
 
 .mk-al{
+    width: 700px;
     display: flex;
     justify-content: space-around;
 }
